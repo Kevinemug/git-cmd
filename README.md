@@ -6,7 +6,7 @@
 * git init
 * git branch -b master main
 * git add . , git commit -m"adding changes"
-* git add remote origin https://github.com/Kevinemug/git-cmd
+* git remote  add origin https://github.com/Kevinemug/git-cmd
 * git push origin main
 * git checkout -b dev
 * git checkout -b test
