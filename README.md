@@ -152,12 +152,44 @@ remote:
 remote: Create a pull request for 'ft/home-page-redesign' on GitHub by visiting:
 remote:      https://github.com/Kevinemug/git-cmd/pull/new/ft/home-page-redesign
 remote:
+  
+  
 To https://github.com/Kevinemug/git-cmd.git
  * [new branch]      ft/home-page-redesign -> ft/home-page-redesign
 PS E:\git-exercise>
 
 
+<h1>Bundle 4</h1>
 
+<h1>Bundle 3</h1>
+  
+  git merge --squash  447da3132aeaee453d6b91b56a0672731f37ece3
+Already up to date. (nothing to squash)       
+PS E:\git-exercise> git commit -m"footer changes squashing"
+On branch ft/footer
+nothing to commit, working tree clean
+PS E:\git-exercise> git push origin ft/footer 
+Everything up-to-date
+PS E:\git-exercise> git commit -m"footer changes squashing"
+On branch ft/footer
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Random-files/index.html   
 
-
+no changes added to commit (use "git add" and/or "git commit -a")
+PS E:\git-exercise> git add .
+PS E:\git-exercise> git commit -m"footer changes squashing"
+[ft/footer ca0dd21] footer changes squashing
+ 1 file changed, 1 insertion(+), 1 deletion(-)PS E:\git-exercise> git push origin ft/footer
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads       
+Compressing objects: 100% (4/4), done.        
+Writing objects: 100% (4/4), 414 bytes | 414.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Kevinemug/git-cmd.git
+   447da31..ca0dd21  ft/footer -> ft/footer
+PS E:\git-exercise> 
 
